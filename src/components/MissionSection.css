@@ -1,0 +1,35 @@
+.mission-section {
+  padding: 80px 120px;
+  background-color: #f8f9fa;
+}
+
+.mission-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mission-text {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+  margin: 0 0 24px 0;
+}
+
+.mission-highlight {
+  color: #4a90e2;
+  font-weight: 500;
+}
+
+.mission-cta-text {
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 24px 0;
+}
+
+@media (max-width: 1024px) {
+  .mission-section {
+    padding: 60px 40px;
+  }
+}
+
+
