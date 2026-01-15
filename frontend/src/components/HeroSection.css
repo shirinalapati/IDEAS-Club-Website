@@ -51,9 +51,9 @@
 
 .hero-graphic {
   position: absolute;
-  width: 600px;
-  height: 610px;
-  left: 850px;
+  width: 650px;
+  height: 710px;
+  left: 1200px;
   top: 130px;
   z-index: 1;
 }
