@@ -20,12 +20,13 @@ const teamMembers = [
   { name: 'Cameron', role: 'Member', department: 'Finance', image: null },
   { name: 'Sydney', role: 'Member', department: 'Finance', image: null },
   { name: 'Rowan', role: 'Member', department: 'Finance', image: null },
-  { name: 'Avery', role: 'Lead', department: 'Web-Dev', image: null },
-  { name: 'Drew', role: 'Member', department: 'Web-Dev', image: null },
-  { name: 'Reese', role: 'Member', department: 'Web-Dev', image: null },
-  { name: 'Charlie', role: 'Member', department: 'Web-Dev', image: null },
-  { name: 'Finley', role: 'Member', department: 'Web-Dev', image: null },
-  { name: 'Emerson', role: 'Member', department: 'Web-Dev', image: null },
+  { name: 'Sujan', role: 'Director/ Full Stack Developer', department: 'Web-Dev', image: "/people/sujan.jpg" },
+  { name: 'Shirin', role: 'Frontend Developer', department: 'Web-Dev', image: "/people/shirin.png" },
+  { name: 'Shiva', role: 'Backend Developer', department: 'Web-Dev', image: "/people/shiva.jpeg" },
+  { name: 'Ayesha', role: 'UI/UX', department: 'Web-Dev', image: null },
+  { name: 'Faith', role: 'UI/UX', department: 'Web-Dev', image: null },
+  { name: 'Yuval', role: 'UI/UX', department: 'Web-Dev', image: null },
+  { name: 'Emily', role: 'Backend Developer', department: 'Web-Dev', image: null }
 ];
 
 const departments = ['Marketing', 'Events', 'Finance', 'Web-Dev'];
