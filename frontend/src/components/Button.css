@@ -9,6 +9,9 @@
   font-family: inherit;
   line-height: 21px;
   width: fit-content;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
 }
 
 .button-primary {

@@ -11,7 +11,7 @@ function Footer() {
             BECOME A PART OF<br />
             <span className="footer-cta-highlight">IDEAS</span> TODAY
           </h3>
-          <Button>Join Us</Button>
+          <Button href="https://forms.gle/mYrip7d6tq4T3nnT7">Join Us</Button>
         </div>
         <div className="footer-column footer-contact">
           <div className="footer-info-block">
