@@ -7,8 +7,9 @@ function HeroSection() {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
-            STARTUP YOUR <span className="hero-title-accent">INNOVATION</span>
+            IDEAS LAB
           </h1>
+          <h2 className="hero-who-are-we-heading">Who are we</h2>
           <p className="hero-description">
             IDEAS at San Jose State University was formed to bring together students from different majors and backgrounds to{' '}
             <span className="hero-highlight">share and collaborate</span> on innovative ideas

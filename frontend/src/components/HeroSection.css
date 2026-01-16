@@ -87,8 +87,36 @@
     gap: 20px;
   }
 
+  .hero-who-are-we-heading {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin: 0;
+  }
+
   .hero-title {
-    font-size: 48px;
+    /* IDEAS LAB */
+
+width: 198px;
+height: 38px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+color: rgba(0, 0, 0, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
   }
 
   .hero-description {
