@@ -110,9 +110,28 @@
   gap: 24px;
 }
 
-.social-icons-img {
-  width: 60px;
-  height: 20px;
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.social-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.social-icon-link:hover {
+  opacity: 0.7;
+  transform: translateY(-2px);
+}
+
+.social-icon-link svg {
+  width: 22px;
+  height: 22px;
 }
 
 @media (max-width: 1024px) {
