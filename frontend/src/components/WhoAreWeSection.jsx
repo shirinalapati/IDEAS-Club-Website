@@ -12,7 +12,7 @@ function WhoAreWeSection() {
             <p className="who-are-we-description">
               IDEAS at San Jose State University was formed to bring together students from different majors and backgrounds to share and collaborate on innovative ideas
             </p>
-            <Button>Join Us</Button>
+            <Button href="https://forms.gle/mYrip7d6tq4T3nnT7">Join Us</Button>
           </div>
         </div>
       </div>

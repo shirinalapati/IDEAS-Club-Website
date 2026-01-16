@@ -15,7 +15,7 @@ function HeroSection() {
             <span className="hero-highlight">share and collaborate</span> on innovative ideas
           </p>
         </div>
-        <Button>Join Us</Button>
+        <Button href="https://forms.gle/mYrip7d6tq4T3nnT7">Join Us</Button>
       </div>
       <div className="hero-graphic">
         <svg width="695" height="835" viewBox="0 0 695 835" fill="none" xmlns="http://www.w3.org/2000/svg">
