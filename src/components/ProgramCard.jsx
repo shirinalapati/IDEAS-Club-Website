@@ -1,7 +1,7 @@
 import './ProgramCard.css';
 import Button from './Button';
 
-function ProgramCard({ logo, title, description, date, onLearnMore }) {
+function ProgramCard({ logo, title, description, date, learnMorePath }) {
   const renderLogo = () => {
     switch(logo) {
       case 'SJHacks':
@@ -23,7 +23,7 @@ function ProgramCard({ logo, title, description, date, onLearnMore }) {
       <h3 className="program-title">{title}</h3>
       <p className="program-description">{description}</p>
       <div className="program-date">{date}</div>
-      <Button onClick={onLearnMore}>Learn more</Button>
+      <Button to={learnMorePath}>Learn more</Button>
     </div>
   );
 }
