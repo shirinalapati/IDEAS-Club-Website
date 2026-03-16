@@ -13,25 +13,29 @@ function ProgramsSection() {
       image: sjhacksImage,
       title: 'SJHacks',
       description: 'An interdisciplinary hackathon in collaboration with ACM Computer Science Club.',
-      date: 'Spring 2026'
+      date: 'Spring 2026',
+      path: '/programs/sjhacks'
     },
     {
       image: svicImage,
       title: 'Silicon Valley Innovation Challenge',
       description: 'Turn passion projects into real-world impact with mentorship and prizes.',
-      date: 'Spring 2026'
+      date: 'Spring 2026',
+      path: '/programs/svic'
     },
     {
       image: svbpcImage,
       title: 'Silicon Valley Business Plan Competition',
       description: 'Pitch to investors and compete for $10K.',
-      date: 'Spring 2026'
+      date: 'Spring 2026',
+      path: '/programs/svbpc'
     },
     {
       image: zinnstarterImage,
       title: 'Zinnstarter Accelerator Program',
       description: 'Get funding and mentorship from Ray Zinn to launch your startup.',
-      date: 'Spring 2026'
+      date: 'Spring 2026',
+      path: '/programs/zinnstarter'
     }
   ];
 
@@ -50,7 +54,7 @@ function ProgramsSection() {
               title={program.title}
               description={program.description}
               date={program.date}
-              onLearnMore={() => console.log(`Learn more about ${program.title}`)}
+              learnMorePath={program.path}
             />
           ))}
         </div>
