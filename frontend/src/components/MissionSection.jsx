@@ -14,7 +14,7 @@ function MissionSection() {
             <span className="mission-highlight">real world difference.</span> Whether you're just starting out or making your first MVP, we're here for every step of the journey.
           </p>
           <p className="mission-cta-text">Find out more about our history and achievements!</p>
-          <Button>Learn more</Button>
+          <Button to="/mission">Learn more</Button>
         </div>
       </div>
     </section>

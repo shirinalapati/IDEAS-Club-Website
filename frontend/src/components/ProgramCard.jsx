@@ -1,7 +1,7 @@
 import './ProgramCard.css';
 import Button from './Button';
 
-function ProgramCard({ image, title, description, date, onLearnMore }) {
+function ProgramCard({ image, title, description, date, learnMorePath }) {
   return (
     <div className="program-card">
       <div className="program-image-container">
@@ -12,7 +12,7 @@ function ProgramCard({ image, title, description, date, onLearnMore }) {
         <p className="program-description">{description}</p>
         <div className="program-footer">
           <span className="program-date">{date}</span>
-          <Button variant="secondary" onClick={onLearnMore}>Learn more</Button>
+          <Button variant="secondary" to={learnMorePath}>Learn more</Button>
         </div>
       </div>
     </div>
