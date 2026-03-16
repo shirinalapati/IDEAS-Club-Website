@@ -5,18 +5,28 @@
 }
 
 .back-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #1e3a5f;
+  background-color: #f0f4f8;
+  border: 1px solid #d1dce5;
+  border-radius: 8px;
+  padding: 10px 20px;
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
   margin-bottom: 32px;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .back-link:hover {
-  color: #2a4d7a;
-  text-decoration: underline;
+  background-color: #e2e8f0;
+  color: #1a3050;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
 }
 
 .detail-content {
