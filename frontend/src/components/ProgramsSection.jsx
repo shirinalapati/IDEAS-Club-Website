@@ -1,11 +1,10 @@
 import './ProgramsSection.css';
 import ProgramCard from './ProgramCard';
 
-// Program images from Figma
-const sjhacksImage = "https://www.figma.com/api/mcp/asset/cb12d274-b4c8-4726-a221-516af7e5fc71";
-const svicImage = "https://www.figma.com/api/mcp/asset/00d174c4-b458-4718-8dc6-475c89f97532";
-const svbpcImage = "https://www.figma.com/api/mcp/asset/0d0777e0-8b50-4f4f-976f-29724e994a30";
-const zinnstarterImage = "https://www.figma.com/api/mcp/asset/081a9f8a-4231-4ee0-8c95-81498c3671e3";
+import sjhacksImage from '../assets/programs/sjhacks.svg';
+import svicImage from '../assets/programs/svic.svg';
+import svbpcImage from '../assets/programs/svbpc.svg';
+import zinnstarterImage from '../assets/programs/zinnstarter.svg';
 
 function ProgramsSection() {
   const programs = [
