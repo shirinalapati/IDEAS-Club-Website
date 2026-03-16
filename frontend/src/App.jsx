@@ -8,6 +8,7 @@ import SJHacksPage from './pages/SJHacksPage';
 import SVICPage from './pages/SVICPage';
 import SVBPCPage from './pages/SVBPCPage';
 import ZinnstarterPage from './pages/ZinnstarterPage';
+import MissionPage from './pages/MissionPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/programs/svic" element={<SVICPage />} />
         <Route path="/programs/svbpc" element={<SVBPCPage />} />
         <Route path="/programs/zinnstarter" element={<ZinnstarterPage />} />
+        <Route path="/mission" element={<MissionPage />} />
       </Routes>
       <Footer />
     </div>
