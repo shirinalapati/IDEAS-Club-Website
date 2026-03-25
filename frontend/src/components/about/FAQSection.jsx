@@ -5,29 +5,44 @@ const faqData = [
   {
     question: 'How do I join IDEAS Club?',
     answer: 'You can join IDEAS Club by attending our general meetings or signing up through our website. No prior experience is required!',
-    topic: 'Topic1'
+    topic: 'Joining'
   },
   {
     question: 'What kind of projects can I work on?',
     answer: 'You can work on any project that interests you - from mobile apps to hardware projects, from social enterprises to tech startups.',
-    topic: 'Topic1'
+    topic: 'Joining'
   },
   {
     question: 'Do I need to know how to code?',
     answer: 'Not at all! IDEAS Club welcomes students from all majors and backgrounds. We have teams for marketing, finance, events, and more.',
-    topic: 'Topic2'
+    topic: 'Requirements'
+  },
+  {
+    question: 'Do I need to have experience to join IDEAS',
+    answer: "You don't need direct experience, as long as you are willing to learn, have fun, and have an interest in Entreprenuership.",
+    topic: "Requirements"
   },
   {
     question: 'When are the meetings held?',
     answer: 'Our general meetings are typically held weekly. Check our events page for the latest schedule.',
-    topic: 'Topic3'
+    topic: 'Joining'
   },
+  {
+    question: "How do I become an officer",
+    answer: "Our applications open at the beginning of each semester!",
+    topic: 'How do I become an officer'
+  },
+  {
+    question: "What teams can I be an officer for",
+    answer: "You can apply to be an officer for Web Dev, Finance, Events, Marketing",
+    topic: 'Officer Applications'
+  }
 ];
 
-const topics = ['Topic1', 'Topic2', 'Topic3', 'Topic4'];
+const topics = ['Joining', 'Requirements', 'Officer Applications'];
 
 function FAQSection() {
-  const [activeTopic, setActiveTopic] = useState('Topic1');
+  const [activeTopic, setActiveTopic] = useState('Joining');
   const [openFaq, setOpenFaq] = useState(null);
 
   const filteredFaqs = faqData.filter((faq) => faq.topic === activeTopic);
